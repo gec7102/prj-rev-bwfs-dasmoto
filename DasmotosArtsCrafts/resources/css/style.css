@@ -1,0 +1,54 @@
+/*css rulesets are ordered by specificity and alphabetical order*/
+
+/*TAGS*/
+
+/*set the text for the entire page to Helvetica*/
+body {
+  font-family: Helvetica;
+}
+
+/*Style the main title and give it a background image.*/
+h1 {
+  color: khaki;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  background-image: url(../images/pattern.jpeg);
+}
+
+/*Text styling for section headings will be the same.
+See ids for background-color*/
+h2{
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+/*CLASSES*/
+
+/*Make the price for each type of product
+stand out from the description.*/
+.price {
+  color: blue;
+  font-weight: bold;
+}
+
+/*IDs*/
+
+/*The three following rulesets give the section headings
+ distinct ribbons of background-color*/
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+#frames h2 {
+  background-color: lightcoral;
+}
+
+#paint h2 {
+  background-color: skyblue;
+}
